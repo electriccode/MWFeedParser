@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'MWFeedParserMobileMerit'
-    s.version = '1.0.1'
+    s.version = '1.0.1.beta1'
     s.license = 'MIT (with amendments)'
     s.summary = 'An RSS and Atom web feed parser for iOS (based on ) customised for internal use in MobileMerit.'
     s.description = 'MWFeedParser is an Objective-C framework for ' \
