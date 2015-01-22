@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name = 'MWFeedParser+MobileMerit'
+    s.name = 'MWFeedParserMobileMerit'
     s.version = '1.0.1'
     s.license = 'MIT (with amendments)'
     s.summary = 'An RSS and Atom web feed parser for iOS (based on ) customised for internal use in MobileMerit.'
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
                           'Classes/MWFeedItem.{h,m}',
                           'Classes/MWFeedParser.{h,m}',
                           'Classes/MWFeedParser_Private.h'
-        ss.dependency 'MWFeedParser+MobileMerit/NSString+HTML'
-        ss.dependency 'MWFeedParser+MobileMerit/NSDate+InternetDateTime'
+        ss.dependency 'MWFeedParserMobileMerit/NSString+HTML'
+        ss.dependency 'MWFeedParserMobileMerit/NSDate+InternetDateTime'
     end
     s.subspec 'NSString+HTML' do |ss|
         s.platform = nil
