@@ -1,15 +1,15 @@
 Pod::Spec.new do |s|
-    s.name = 'MWFeedParser'
+    s.name = 'MWFeedParser+MobileMerit'
     s.version = '1.0.1'
     s.license = 'MIT (with amendments)'
-    s.summary = 'An RSS and Atom web feed parser for iOS.'
+    s.summary = 'An RSS and Atom web feed parser for iOS (based on ) customised for internal use in MobileMerit.'
     s.description = 'MWFeedParser is an Objective-C framework for ' \
                     'downloading and parsing RSS (1.* and 2.*) and ' \
                     'Atom web feeds.'
-    s.homepage = 'https://github.com/mwaterfall/MWFeedParser'
-    s.author = { 'Michael Waterfall' => 'michaelwaterfall@gmail.com' }
+    s.homepage = 'https://github.com/electriccode/MWFeedParser'
+    s.author = { 'Pankaj Phartiyal' => 'pankajphartiyal90@gmail.com' }
     s.source = {
-        :git => 'https://github.com/mwaterfall/MWFeedParser.git',
+        :git => 'https://github.com/electriccode/MWFeedParser.git',
         :tag => '1.0.1'
     }
     s.platform = :ios, '5.1.1'
